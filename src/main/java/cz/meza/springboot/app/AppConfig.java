@@ -1,4 +1,4 @@
-package cz.meza.springboot.integration;
+package cz.meza.springboot.app;
 
 import org.springframework.context.annotation.Configuration;
 

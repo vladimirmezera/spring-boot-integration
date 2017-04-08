@@ -1,4 +1,4 @@
-package cz.meza.springboot.integration;
+package cz.cetin.monitor.online;
 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;
