@@ -1,4 +1,4 @@
-package cz.cetin.monitor.online;
+package cz.meza.springboot;
 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;
@@ -15,8 +15,9 @@ import static org.hamcrest.CoreMatchers.is;
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT, properties = {"server.port:0",
         "spring.datasource.url:jdbc:h2:mem:integration;DB_CLOSE_ON_EXIT=FALSE"})
 public class HelloControllerTest {
+
     @Value("${local.server.port}")
-    int port;
+    private int port;
 
     @Before
     public void setUp() throws Exception {
